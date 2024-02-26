@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="wrapper">
+          <div class="img_section">
+            <div class="default_info">
+              <h2 class="default_day">SATURDAY</h2>
+              <span class="default_date">13 JANUARY 2024 </span>
+              <div class="icons">
+                <img src="images/background.jpg" alt="" />
+                <h2 class="weather_temp">18°C</h2>
+                <h3 class="cloudtxt">Overcast Clouds</h3>
+              </div>
+            </div>
+          </div>
+          <div class="content_section">
+            <form>
+              <input
+                type="text"
+                placeholder="Search Location"
+                class="input_field"
+              />
+              <button type="submit" class="btn_search">Search</button>
+            </form>
+  
+            <div class="day_info">
+              <div class="content">
+                <p class="title">NAME</p>
+                <span class="value">Delhi/Mumbai/Kolkata</span>
+              </div>
+              <div class="content">
+                <p class="title">TEMP</p>
+                <span class="value">17°C</span>
+              </div>
+              <div class="content">
+                <p class="title">HUMIDITY</p>
+                <span class="value">4%</span>
+              </div>
+              <div class="content">
+                <p class="title">WIND SPEED</p>
+                <span class="value">2.92 Km/h</span>
+              </div>
+            </div>
+  
+            <div class="list_content">
+              <ul>
+                <li>
+                  <img src="images/icon.jpg" />
+                  <span>Sun</span>
+                  <span class="day_temp">19°C</span>
+                </li>
+                <li>
+                  <img src="images/icon.jpg" />
+                  <span>Mon</span>
+                  <span class="day_temp">20°C</span>
+                </li>
+                <li>
+                  <img src="images/icon.jpg" />
+                  <span>Tues</span>
+                  <span class="day_temp">18°C</span>
+                </li>
+                <li>
+                  <img src="images/icon.jpg" />
+                  <span>Wed</span>
+                  <span class="day_temp">16°C</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="weather.js"></script>
+</body>
+</html>
